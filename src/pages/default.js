@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Header from '../components/header'
 
 
 function Default() {
     {
     return (
-        <div>Default
-           
+        <div>
+           <Header header={'404 error :('} />
     </div>
     );
 }
